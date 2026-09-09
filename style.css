@@ -11,3 +11,26 @@ a{
     border: 2px solid #22D4FD;
     padding: 10px;
 }
+body{
+    background: #000000;
+    color: #F6F6F6;
+    font-family: Arial;
+}
+h1 strong{
+    color: #22D4FD;
+}
+a{
+    color: #22D4FD;
+    border: 2px solid #22D4FD;
+    padding: 10px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    text-decoration: none;
+    margin: 5px;
+}
+a:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px rgba(34, 212, 253, 0.5);
+    background-color: #272727;
+}
